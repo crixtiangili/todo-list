@@ -3,7 +3,7 @@
 // Establish a connection to the database
 
 $host = "us-cdbr-east-05.cleardb.net";
-$user = "beec901f50b6f";
+$user = "beec901f50b6ff";
 $db_password = "4a29d6f1";
 $db_name = "heroku_14a740b258d0fd2"; 
 
