@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+
+
+.text-1 {
+    text-align: center;
+    margin-top: 6%;
+    font-size: 90px;
+}
+
+.form {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    margin: 10px auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    outline: none;
+    font-size: 20px;
+    transition: border 0.2s ease-in-out;
+}
+
+input:hover {
+    border: 2px solid teal;
+}
+
+.btn-1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.5px solid lightcoral;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: lightcoral;
+    transition: border 0.2s ease-in-out;
+}
+
+.btn-1:hover {
+    border: 2px solid teal;
+}
+
+.txt1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hr {
+    display: block;
+    border: 0.5px solid lightcoral;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* styling the todo */
+
+.todos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.todo {
+    width: 80%;
+    text-align: center;
+}
+
+.show-text {
+    border: 2px solid teal;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.del {
+    margin-left: 20px;
+    border: 2px solid teal;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.del:hover {
+    background-color: lightcoral;
+}
+
+/* Media queries and responsiveness */
+@media(max-width: 480px) {
+
+    form input {
+        padding-right: 50px;
+        padding-left: 90px;
+    }
+}
+
+@media(max-width: 375px) {
+
+    form input {
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+}
+
+
+@media(max-width: 370px) {
+
+    form input {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+/* button.edit {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+button.delete {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+} */
